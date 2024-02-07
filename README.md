@@ -1,10 +1,10 @@
-# *LOCO*
-*LOCO*: A Hierarchical Dataflow Framework for CGRA Mapping
+# *AGILE*
+*AGILE*: A Hierarchical Dataflow Framework for CGRA Mapping
 
 
-## How to run *LOCO*?
+## How to run *AGILE*?
 
->* Most modules of *LOCO* are written in Python. We test *LOCO* on *anaconda* and *python 3.7*.  
+>* Most modules of *AGILE* are written in Python. We test *AGILE* on *anaconda* and *python 3.7*.  
 
 >* Install the dependencies: 
 ```
@@ -26,7 +26,7 @@ python3 ./test/pnr.py ./benchmark/${SET}/${BENCH}/${BENCH}_DFG.txt ./benchmark/$
 >* Components such as partitioning, DSE, mapping, etc. can be found under `test`.
 
 >* Compilation is optional. It is needed if you want to use the front-end or use the C++ interface. 
->>* You can compile *LOCO* by running "make". The front-end is tested in LLVM 11.  
+>>* You can compile *AGILE* by running "make". The front-end is tested in LLVM 11.  
 
 ## Description about the code
 
